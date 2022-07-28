@@ -27,6 +27,12 @@ KEYBOARD_SHARED_EP = yes
 RGB_MATRIX_ENABLE = yes
 RGB_MATRIX_DRIVER = SN32F24xB
 
+# Key override for neo layout
+KEY_OVERRIDE_ENABLE = yes
+
+# combos for layer locking
+COMBO_ENABLE = yes
+
 # project specific files
 SRC = ../../../drivers/led/sn32/matrix_sn32f24xx.c
 
